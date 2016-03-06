@@ -1,9 +1,20 @@
+body {
+	background-image: url("http://wallpaperkeren.website/wp-content/uploads/2015/12/Cat-Background-A8C.png");
+}
+
+#intro {
+	color: white;
+}
+
 .racer_table td {
-  background-color: white;
   height: 20px;
   width: 20px;
 }
 
 .racer_table td.active {
-  background-color: black;
+	background-color: white;
+}
+
+.active {
+	background-image: url ("http://cliparts.co/cliparts/rin/KeL/rinKeLriR.png");
 }

@@ -26,21 +26,19 @@ var handleKeyPress = function(event){
 		if (player1update) {
 			player1update.classList.add("active");	
 		} else {
-			alert("Congratulations player 1, you've finished the game!")
+			alert("Congratulations player 1, you've won the game!")
 		}	
 	} else if (event.keyCode === player2KeyCode) {
 		var player2update = document.querySelector("#player2_strip td:not(.active)");
 		if (player2update) {
 			player2update.classList.add("active");	
 		} else {
-			alert("Congratualtions Player 2, you've finished the game!");
+			alert("Congratulations Player 2, you've won the game!");
 		}
+	// else {
+	// 	console.log("you've pressed the wrong key, hit 'A'")
+	// }  //<----this code is screwing it uuuup!!!
 	}
-	else {
-		console.log("you've pressed the wrong key, hit 'A'");
-	}
-	
-
 
 	console.log("button pressed");
 	console.log("key pressed: " + event.keyCode)
